@@ -1,3 +1,7 @@
+html {
+    background: gray;
+}
+
 .left-cn {
     width: 40%;
     background: #494E5F;
@@ -38,6 +42,9 @@
 .hr {
     background: #FFE7D4;   
     height: 5px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
 .texto {
@@ -49,23 +56,43 @@
 
 .right-cn {
     width: 60%;
-    padding: 10%;
+    padding: 3% 4%;
+    background: white;
 }
 
 .container {
     background: #ffe7d4;
     color: #494e5f;
-    padding: 3%;
-    text-align: center;
+    padding: 2% 4%;
+    text-align: start;
     font-family: 'Poppins', sans-serif;
 }
 
 .r-title {
+    color: #5d5f68;
+    font-family: 'Lato', sans-serif;
+    text-align: start;
+    font-weight: bold;
+}
+
+.r-subtitle {
     color: #888b97;
     font-family: 'Lato', sans-serif;
+    text-align: start;
+    font-weight: bold;
+    margin: 0%;
 }
 
 .r-text {
     color:#898c97;
-    font-family: 'Lato', sans-serif;
+    text-align: start;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    font-weight: normal;
+}
+
+.box-shadow {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
